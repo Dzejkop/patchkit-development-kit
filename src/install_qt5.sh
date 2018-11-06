@@ -91,7 +91,6 @@ if [ "$1" == "linux64" ]; then
     -confirm-license \
     -c++std c++11 \
     -static \
-    -largefile \
     -accessibility \
     -no-qml-debug \
     -pkg-config \
