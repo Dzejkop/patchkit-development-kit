@@ -85,6 +85,7 @@ fi
 if [ "$1" == "linux64" ]; then
   $SRC_INSTALL_QT5_SCRIPT_DIR/qt5/configure \
     -prefix $PDK_INSTALL_PLATFORM_DIR/qt5 \
+    -platform linux-g++-64 \
     -release \
     -no-optimized-tools \
     -opensource \
